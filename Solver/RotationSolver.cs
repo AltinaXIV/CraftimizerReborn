@@ -286,7 +286,7 @@ public sealed class RotationSolver : IDisposable
                         var solver = new MCTS(MCTSConfig, activeStates[stateIdx].State);
                         await semaphore.WaitAsync(Token).ConfigureAwait(false);
                         try
-                        {
+                        { 
                             solver.Search(iterCount, maxIterCount, ref progress, Token);
                         }
                         finally

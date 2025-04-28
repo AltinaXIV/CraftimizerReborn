@@ -12,6 +12,7 @@ using System.Reflection;
 
 namespace Craftimizer.Plugin;
 
+#pragma warning disable MA0049
 public sealed class Plugin : IDalamudPlugin
 {
     public string Version { get; }

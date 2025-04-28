@@ -4,6 +4,7 @@ using System.Runtime.CompilerServices;
 
 namespace Craftimizer.Simulator;
 
+#pragma warning disable MA0049
 public class Simulator
 {
     public SimulationState State { init => state = value; }

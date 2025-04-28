@@ -4,6 +4,7 @@ using System.Diagnostics;
 
 namespace Craftimizer.Solver;
 
+#pragma warning disable MA0049
 public sealed class Solver : IDisposable
 {
     public SolverConfig Config { get; }
